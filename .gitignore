@@ -1,0 +1,36 @@
+# Python Sanal Ortamları
+.venv/
+venv/
+ENV/
+env/
+
+# Python Önbellekleri
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# İşletim Sistemi ve IDE Dosyaları
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+
+# Geçici Dosyalar
+scratch/
+*.tmp
+*.log
+
+# Veri Klasörü (ham büyük veri setleri için koruma, .gitkeep hariç)
+data/raw/*
+!data/raw/.gitkeep
+
+# Deney sonuçları ve görsel çıktıları koru (hariç tutulmaz)
+!results/
+!outputs/
